@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#todo{
+    top: 15px;
+    position: relative;
+    border: 3px solid black;
+    height: 150px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+h3{
+    position: relative;
+    font-size: 35px;
+    font-family: arial;
+    text-align: center;
+    bottom: 5px;
+}
+
+input{
+    position: absolute;
+    left: 36.5%;
+    top: 88px;
+    padding: 3px;
+}
+
+.btn{
+    position: absolute;
+    left: 65%;
+    top: 90px;
+}
+
+input:focus{
+    background-color: aquamarine;
+    border: solid blue;
+}
+
+.btn2{
+    position: absolute;
+    left: 75%;
+    top: 90px;
+}
+
+#dynamic{
+    position: relative;
+    top: 30px;
+    height: 300px;
+    text-align: center;
+}
+
+ul,li{
+    text-decoration: none;
+}
